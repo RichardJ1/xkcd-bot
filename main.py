@@ -162,7 +162,7 @@ async def whatif(ctx, *, query=None):
 @bot.command()
 async def help(ctx):
     
-# Currently undergoing rewrite
+    # Currently undergoing rewrite
 
     await ctx.send(embed=embed)
     print('HELP Command Called')
